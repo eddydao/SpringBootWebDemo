@@ -1,0 +1,365 @@
+body{
+    background-color: aliceblue;
+    max-width: 1300px ;
+    margin: auto;
+}
+.plain-text{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+/*header*/
+#nav-bar{
+    margin: auto;
+}
+#nav-div{
+    background-color: azure;
+    border-bottom: 2px solid blue;
+    height: 50px;
+}
+#leftnavside{
+    float: left;
+    width: 50%;
+    line-height: 80px;
+    /* margin: 0px 50px 20px 0; */
+}
+#img-bar{
+    float: right;
+    width: 60%;
+}
+#logo_img_left{
+    width: 40%;
+    height: auto;
+    float: left;
+}
+#lisaho_logo{
+    width: 150px;
+    height: 50px;
+}
+#logo_img_right{
+    float: left;
+    width:40%;
+    height: auto;
+}
+#southbank_logo{
+    width: 150px;
+    height: 50px;
+}
+#rightnavside{
+    float: right;
+    width: 40%;
+}
+#hotline-text{
+    line-height: 80px;
+}
+/*main section*/
+/* #section{
+    
+} */
+.slide{
+    width:80%;
+    margin: auto;
+    height: 600px;
+    background-image: url("../resources/img/slide.jpg");
+    background-repeat: no-repeat;
+}
+/* main section background image*/
+#background-image-div{
+    width: 100%; 
+}
+#background-image{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+}
+/* register form*/
+#form-background{
+    float: right;
+    margin: 100px 100px 0px 0px;
+    width: 300px;
+    height: 450px;
+    
+}
+#form{
+    position: relative;
+    background-image: url("../resources//img/registe-bg.png");
+    width: 100%;
+    height: 70%;
+}
+#register-form{
+    float: left;
+    margin: 150px 0 0px 20px;
+    width: 90%;
+}
+
+.form-field{
+    border: 1px solid #808080; 
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    /* padding: 7px; */
+    padding: 5px 0px 5px 0px;
+}
+#register-button{
+    border: 1px solid #808080; 
+    border-radius: 5px;
+    margin: 10px 0px 0px 28px ;
+    width: 80%;
+    background-image: url("../resources/img/btn-green.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 40px;
+}
+
+/*Advisory section*/
+#advisory-section{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+/*title div*/
+#title{
+    margin: 0px 0px 0px 450px;
+}
+/*instructio area*/
+#instruction-area{
+    height: 300px;
+}
+#instruction{
+    margin: 20px auto;
+    width: 70%;
+    height: 200px;
+}
+.instruction-list{
+    float: left;
+    width: 20%;
+}
+
+.instruction-list li {
+    margin-top:1px;
+}
+
+.div-imgInstruction{
+    width: 100%;
+    height:120px;
+    background-color: chocolate;
+}
+
+.imgInstruction{
+    margin-left: 27%;
+    margin-top: 12%;
+}
+
+/*Register button 2*/
+#register-button-div{
+    margin-top: 5px;
+}
+#button2{
+    border: 1px solid #808080; 
+    border-radius: 5px;
+    background-image: url("../resources/img/btn-green.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 40px;
+    width: 15%;
+    margin-left: 570px;
+}
+
+/*first-benefit area*/
+/*Benefit header*/
+#first-benefit-area{
+    background-color: #c8cbd1;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+#benefit-title-div{
+    margin-left: 340px;
+   
+}
+
+#img-benefit-title{
+    margin-top: 50px;
+}
+/*Benefit content*/
+#benefit-content-area{
+    height: 250px;
+}
+
+#benefit-content-list {
+    margin: 20px auto;
+    width: 90%;
+    height: 200px;
+}
+
+.benefit-list{
+    float: left;
+    width: 12%;
+}
+
+/*Second benefit area*/
+/*title*/
+#second-benefit-area{
+    background-image: url("../resources/img/benefit-2-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+}
+
+#second-benefit-title-div{
+    margin-left: 340px;
+}
+
+#img-second-benefit-title{
+    margin-top: 50px;
+}
+
+/*content*/
+
+#second-benefit-content{
+    height: 200px;
+}
+
+#second-benefit-content-list {
+    margin: 20px auto;
+    width: 80%;
+    height: 200px;
+}
+
+.second-benefit-list{
+    float: left;
+    width: 20%;
+}
+
+/* .imgInstruction{
+    margin-left: 3px;
+} */
+/*target-subect  area*/
+#target-section{
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+/*title div*/
+#target-title{
+    margin: 0px 0px 50px 450px;
+}
+/*target-content*/
+#target-content-area{
+    height:300px;
+}
+#left-content{
+    float: left;
+    width: 50%;
+}
+#left-content img{
+    float: right;
+    margin-right: 30px;
+}
+#right-content{
+    float: right;
+    width: 50%;
+    
+}
+#right-content img{
+    float: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+/*target register button*/
+#target-register-button-div{
+    margin-top: 10px;
+}
+
+#button3{
+    border: 1px solid #808080; 
+    border-radius: 5px;
+    background-image: url("../resources/img/btn-orange.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 40px;
+    width: 15%;
+    margin-left: 570px;
+    margin-top: 20px;
+}
+
+/*feedback area*/
+#feedback-area{
+    background-image: url("../resources/img/emotion-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 50px;
+    height: 550px;
+   
+}
+/* #feedback-content{
+    position: relative;
+}
+#btn_prev{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 20%;
+    z-index: 5;
+} */
+/*feedback-title*/
+/* #img-feedback-title{
+    margin: 40px 0px 50px 550px;
+} */
+/*feedback-slide*/
+/* #img-feedback-slide{
+    
+} */
+/*Contact area*/
+#contact-area{
+   
+    height: 200px;
+    width: 100%;
+    /* position: absolute; */
+    /* z-index: 0; */
+}
+#upper-contact-area{
+    background-color: #875b23;
+    height: 20px;
+    width: 100%;
+}
+#contact-content{
+    background-color: #d8aa6e;
+    height: 180px;
+    width: 100%;
+    /* position: relative; */
+    /* margin-top: 20px; */
+    /* z-index: 1; */
+}
+p{
+    text-align: center;
+    color: white;
+    margin-top: 1px;
+}
+
+
+#myBtn{
+  display: none;
+  position: fixed;
+  background-image: url("../resources/img/go-to-top.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  bottom: 0px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  
+  border-radius: 20px;
+  background-color: chartreuse;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+
