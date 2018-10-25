@@ -355,9 +355,9 @@ uri="http://java.sun.com/jsp/jstl/core" %>
         }
         $.ajax({
             /* 
-             * NOTE: error indicated at the above line! POST 404()- XHR failed loading POST
+             * NOTE: error indicated at the above line! POST 500()- XHR failed loading POST
              * */
-            url: "login",
+            url: "/login",
             type: "POST",
             data: {
                 email: email,

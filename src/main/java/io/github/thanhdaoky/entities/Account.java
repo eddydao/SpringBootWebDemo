@@ -24,16 +24,18 @@ public class Account {
 	/**
 	 * Attributes
 	 */
-	@Id private String sID;
+	@Id 
+	@Column(name="ID", length=10, nullable=false)
+	private String id;
 	
 	@Column(name="Name" ,length=100, nullable=true)
-	private String sName;
+	private String name;
 	
 	@Column(name="Email", length =200, nullable= true)
-	private String sEmail;
+	private String email;
 	
 	@Column(name="Password", length=100, nullable = true)
-	private String sPassword;
+	private String password;
 	
 	
 }
